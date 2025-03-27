@@ -21,7 +21,7 @@ public class TestBase {
 		prop = new Properties();
 		try {
 			FileInputStream ip = new FileInputStream(
-					"E:\\Newselenium\\config\\config.Properties");
+					"E:\\Newselenium\\config.Properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
