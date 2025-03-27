@@ -21,7 +21,7 @@ public class TestBase {
 		prop = new Properties();
 		try {
 			FileInputStream ip = new FileInputStream(
-					"E:\\Newselenium\\ProKarma\\src\\main\\java\\prokarma\\qa\\ecomm\\config\\config.Properties");
+					"E:\\Newselenium\\config\\config.Properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
